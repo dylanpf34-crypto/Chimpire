@@ -1526,8 +1526,8 @@ function createPlayer() {
                 
                 if (Math.abs(dx) > Math.abs(dy)) {
                     if (Math.abs(dx) > 40) {
-                        if (dx > 0) moveLane(1);
-                        else moveLane(-1);
+                        if (dx > 0) moveLane(-1);
+                        else moveLane(1);
                     }
                 } else {
                     if (dy < -40) jump();
